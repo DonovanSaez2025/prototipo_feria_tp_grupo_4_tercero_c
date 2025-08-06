@@ -34,14 +34,13 @@
     <div class="container">
         <!-- Fila 1 -->
         <div class="row">
-            <div class="row-up">
+            <main class="disclaimer">
                 <h2>Bienvenido a Alerta Silenciosa</h2>
                 <p>Aquí podrás reportar cualquier situación que te incomóde o te haga daño sin que nadie más se entere
                     aparte de los directivos de tu colegio/liceo</p>
-            </div>
-
-            <p>Se ruega que se mantenga seriedad y envíe notas reales, no se tolerarán las bromas o notas
-                malintencionadas, estás advertido</p>
+                <p>Se ruega que se mantenga seriedad y envíe notas reales, no se tolerarán las bromas o notas
+                    malintencionadas, estás advertido</p>
+            </main>
         </div>
 
         <!-- Fila 2 -->
@@ -50,43 +49,48 @@
                 <div class="note-h">
                     <h3>Nota de denuncia</h3>
                 </div>
-                <div class="note-body">
+                <div class="note-b">
                     <!-- Formulario -->
                     <form>
-                        <!-- Correo institucional -->
-                        <div class="correo">
-                            <label for="email">Correo institucional:</label>
-                            <input type="email" id="email" name="email">
-                        </div>
-                        <!-- Curso del alumno -->
-                        <div class="curso">
-                            <label for="curso">Curso:</label>
-                            <div class="curso-select">
-                                <!-- Número del curso -->
-                                <input type="number" id="curso" name="curso" min="1" max="8" value="1">
-                                <span>°</span>
-                                <!-- Letra del curso -->
-                                <select size="1">
-                                    <option value="a">A</option>
-                                    <option value="b">B</option>
-                                    <option value="c">C</option>
-                                    <option value="d">D</option>
-                                    <option value="e">E</option>
-                                </select>
+                        <div class="general">
+                            <!-- Correo institucional -->
+                            <div class="correo">
+                                <label for="email">Correo institucional:</label>
+                                <input type="email" id="email" name="email">
                             </div>
-                        </div>
-                        <!-- Fecha del suceso -->
-                        <div class="fecha">
-                            <label for="date">Fecha:</label>
-                            <input type="date" id="date" name="date">
+                            <!-- Curso del alumno -->
+                            <div class="curso">
+                                <label for="curso">Curso:</label>
+                                <div class="curso-select">
+                                    <!-- Número del curso -->
+                                    <input type="number" id="curso" name="curso" min="1" max="8" value="1">
+                                    <span>°</span>
+                                    <!-- Letra del curso -->
+                                    <select size="1">
+                                        <option value="a">A</option>
+                                        <option value="b">B</option>
+                                        <option value="c">C</option>
+                                        <option value="d">D</option>
+                                        <option value="e">E</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <!-- Fecha del suceso -->
+                            <div class="fecha">
+                                <label for="date">Fecha:</label>
+                                <input type="date" id="date" name="date">
+                            </div>
                         </div>
                         <!-- Área de texto para detallar el suceso -->
                         <div class="detalle">
-                            <label for="textbox">Escribe y detalle su denuncia de máximo 600 carácteres incluyendo
+                            <label for="textbox" class="disclaimer-note">Escribe y detalle su denuncia de máximo 600
+                                carácteres incluyendo
                                 espacios, puntos, comas y signos (no incluya groserías, palabras vulgares
                                 ni palabras de broma sacadas de internet)</label>
-                            <textarea id="textbox" name="textbox" cols="20" rows="9" maxlength="600"
-                                placeholder="Escribir denuncia..."></textarea>
+                            <div class="text-part">
+                                <textarea id="textbox" name="textbox" cols="50" rows="9" maxlength="600"
+                                    placeholder="Escribir denuncia..."></textarea>
+                            </div>
                         </div>
 
                         <!-- Botón de enviar -->
