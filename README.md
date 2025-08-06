@@ -5,7 +5,7 @@
 **Integrantes**:                          
 <ul>
     <li>Krishna Lopez</li>
-    <li>>Yulieth Gonzalez</li>
+    <li>Yulieth Gonzalez</li>
     <li>Javiera Zapata</li>
     <li>Donovan Sáez</li>
     <li>Ignacio Peña</li>
