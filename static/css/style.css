@@ -6,5 +6,41 @@
 }
 
 body {
-    
+    /* Formato del texto */
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    color: #fff;
+    /* Fondo */
+    background-color: #000088;
+}
+
+header {
+    padding: 5px;
+    border-bottom: 2px solid #fff;
+    background-color: #880000;
+}
+
+nav {
+    padding: 5px;
+    border-bottom: 2px solid #fff;
+    background-color: #008800;
+}
+
+.nav-container {
+    /* Flexbox */
+    display: flex;
+    justify-content: space-between;
+    /* Tamaño y posición */
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #00ffff;
+}
+
+.nav-link:hover {
+    color: #ffff00;
+    transition: color 0.2s;
 }
