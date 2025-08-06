@@ -4,10 +4,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
     <title>Alerta silenciosa</title>
 </head>
 
 <body>
+    <header>
+        <h1>Alerta silenciosa</h1>
+    </header>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="nav-link">Inicio</a>
+            <a href="#" class="nav-link">Denunciar</a>
+            <a href="#" class="nav-link">Ayuda</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="row-up">
+                <h2>Bienvenido a Alerta Silenciosa</h2>
+                <p>Aquí podrás reportar cualquier situación que te incomóde o te haga daño sin que nadie más se entere
+                    aparte de los directivos de tu colegio/liceo</p>
+            </div>
+
+            <p>Se ruega que se mantenga seriedad y envíe notas reales, no se tolerarán las bromas o notas
+                malintencionadas, estás advertido</p>
+        </div>
+
+        <div class="row">
+            <div class="note">
+                <div class="note-h">
+                    <h3>Nota de denuncia</h3>
+                </div>
+                <div class="note-body">
+                    <form>
+                        <div class="correo">
+                            <label for="email">Correo institucional:</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+
+                        <div class="curso">
+                            <label for="curso">Curso:</label>
+                            <div class="curso-select">
+                                <input type="number" id="curso" name="curso" min="1" max="8" value="1">
+                                <p>°</p>
+                                <select size="1">
+                                    <option>A</option>
+                                    <option>B</option>
+                                    <option>C</option>
+                                    <option>D</option>
+                                    <option>E</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="fecha">
+                            <label for="date">Fecha:</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+
+                        <div class="detalle">
+                            <label for="textbox">Escribe y detalle su denuncia de máximo 600 carácteres incluyendo espacios, puntos, comas y signos (no incluya groserías, palabras vulgares
+                                ni palabras de broma sacadas de internet)</label>
+                            <textarea id="textbox" name="textbox" cols="20" rows="9" maxlength="600" placeholder="Escribir denuncia..."></textarea>
+                        </div>
+
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
