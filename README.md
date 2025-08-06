@@ -4,8 +4,8 @@
 
 **Integrantes**:                          
 <ul>
-    <li>Krishna Lopez</li>
-    <li>Yulieth Gonzalez</li>
+    <li><span style="font-weight: bold;">Krishna Lopez</span></li>
+    <li><span style="font-weight: bold;">Yulieth Gonzalez</span></li>
     <li>Javiera Zapata</li>
     <li>Donovan Sáez</li>
     <li>Ignacio Peña</li>
