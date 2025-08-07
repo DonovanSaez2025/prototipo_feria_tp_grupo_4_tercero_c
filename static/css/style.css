@@ -6,12 +6,17 @@
 }
 
 body {
-    /* Formato del texto */
     font-family: "Roboto Condensed", sans-serif;
     text-align: center;
     color: #fff;
-    /* Fondo */
-    background-color: #1a5e4f;
+    background-color: #008111;
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin: 15px 15px;
 }
 
 .nav-container{
