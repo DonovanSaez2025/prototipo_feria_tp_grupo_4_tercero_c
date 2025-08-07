@@ -5,3 +5,11 @@
     box-sizing: border-box;
 }
 
+body {
+    /* Formato del texto */
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    color: #fff;
+    /* Fondo */
+    background-color: #000088;
+}
