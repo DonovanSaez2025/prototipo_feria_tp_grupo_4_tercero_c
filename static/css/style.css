@@ -19,15 +19,15 @@ nav {
     margin: 15px 15px;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     justify-content: flex-end;
     max-width: 700px;
     margin: 0 auto;
 }
 
-button{
-   padding: 5px 10px;
+button {
+    padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     background-color: #0000ff;
