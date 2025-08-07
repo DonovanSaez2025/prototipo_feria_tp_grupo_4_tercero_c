@@ -11,6 +11,7 @@ body {
     text-align: center;
     color: #fff;
     /* Fondo */
+<<<<<<< HEAD
     background-color: #000088;
 }
 
@@ -21,4 +22,25 @@ nav {
     gap: 10px;
     /* Código normal */
     margin: 15px 15px;
+=======
+    background-color: #1a5e4f;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+button{
+   padding: 5px 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+}
+
+.h-container p{
+    
+>>>>>>> b12e8a9c7f3d1568d22d8e2c6ca46a30191f8ee4
 }
