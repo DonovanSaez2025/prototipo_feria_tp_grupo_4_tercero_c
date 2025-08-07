@@ -13,3 +13,12 @@ body {
     /* Fondo */
     background-color: #000088;
 }
+
+
+
+button{
+   padding: 5px 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+}
