@@ -14,11 +14,16 @@ body {
     background-color: #000088;
 }
 
-
-
-button{
-   padding: 5px 10px;
+button {
+    padding: 5px 10px;
     border-radius: 5px;
-    background-color: blue;
+    cursor: pointer;
+    background-color: #0000ff;
     color: #fff;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #ff0000;
+    transition: background-color 0.2s;
 }
