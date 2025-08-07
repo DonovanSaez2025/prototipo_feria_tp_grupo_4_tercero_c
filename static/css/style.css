@@ -11,11 +11,18 @@ body {
     text-align: center;
     color: #fff;
     /* Fondo */
-    background-color: #000088;
+    background-color: #1a5e4f;
 }
 
-button {
-    padding: 5px 10px;
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+button{
+   padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
     background-color: #0000ff;
