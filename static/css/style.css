@@ -11,14 +11,23 @@ body {
     text-align: center;
     color: #fff;
     /* Fondo */
-    background-color: #000088;
+    background-color: #1a5e4f;
 }
 
-
+.nav-container{
+    display: flex;
+    justify-content: flex-end;
+    max-width: 700px;
+    margin: 0 auto;
+}
 
 button{
    padding: 5px 10px;
     border-radius: 5px;
     background-color: blue;
     color: #fff;
+}
+
+.h-container p{
+    
 }
